@@ -23,7 +23,7 @@ Not analyzed: string literals, identifiers, `.cshtml`, `.razor`, Visual Basic.
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="ProfanityCommentsAnalyzer" Version="2.0.3">
+  <PackageReference Include="ProfanityCommentsAnalyzer" Version="2.0.5">
     <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
   </PackageReference>
@@ -33,7 +33,7 @@ Not analyzed: string literals, identifiers, `.cshtml`, `.razor`, Visual Basic.
 Or:
 
 ```bash
-dotnet add package ProfanityCommentsAnalyzer --version 2.0.3
+dotnet add package ProfanityCommentsAnalyzer --version 2.0.5
 ```
 
 ### Run
@@ -79,7 +79,7 @@ To fail the build on violations, treat warnings as errors and do not exclude PCA
 
 After installing the package, `dotnet build` reports **PCA001** warnings for profane or offensive words found in comments. The analyzer checks built-in lists for **en**, **hu**, **de**, **ro**, and **it** — each match shows the word, language code, and severity:
 
-![Build output showing PCA001 profanity-in-comments warnings across en, hu, de, ro, and it test files](docs/nuget-build-output.png)
+![Build output showing PCA001 profanity-in-comments warnings across en, hu, de, ro, and it test files](https://raw.githubusercontent.com/lkovari/profanity-comments-analyzer/main/docs/nuget-build-output.png)
 
 ## PCA001
 

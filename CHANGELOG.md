@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.5] - 2026-06-24
+
+### Fixed
+
+- README: build-output screenshot now uses an absolute `raw.githubusercontent.com` URL so it renders on [nuget.org](https://www.nuget.org/packages/ProfanityCommentsAnalyzer) (relative paths are not supported there).
+
 ## [2.0.4] - 2026-06-24
 
 ### Changed
@@ -90,6 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Supplemental words via `AdditionalFiles` JSON (`profanity-words*.json`).
 - NuGet package with analyzer assembly and language source templates.
 
+[2.0.5]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.5
 [2.0.4]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.4
 [2.0.3]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.3
 [2.0.2]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.2
