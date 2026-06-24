@@ -386,6 +386,51 @@ To change built-in defaults:
 2. Mirror the same files in `templates/profanity/` (shipped as NuGet `content/` templates for consumers).
 3. Run `dotnet test` — word list tests validate loading and matching.
 
+### Release checklist
+
+End-to-end steps to ship a new version to [nuget.org](https://www.nuget.org). Details for each phase are in the sections below.
+
+#### One-time setup (do once)
+
+- [ ] [nuget.org → Trusted Publishing](https://www.nuget.org/manage/trustedpublishers): policy for owner `lkovari`, repo `profanity-comments-analyzer`, workflow `build.yml`, environment `production`.
+- [ ] GitHub repo → **Settings → Environments → New environment** → name **`production`**.
+
+No `NUGET_API_KEY` repository secret is required — CI uses [trusted publishing](https://learn.microsoft.com/nuget/nuget-org/trusted-publishing) (OIDC via `NuGet/login@v1`).
+
+#### Every release
+
+1. [ ] Update word lists if needed ([Edit embedded word lists](#edit-embedded-word-lists) above).
+2. [ ] Add a `[X.Y.Z]` entry to `CHANGELOG.md`.
+3. [ ] Bump `<Version>` in `ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj` (must match the tag, e.g. `2.0.3`).
+4. [ ] Run locally:
+
+```bash
+dotnet build -c Release
+dotnet test -c Release
+dotnet pack ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj -c Release -o ./artifacts
+```
+
+5. [ ] Commit and push to `main`.
+6. [ ] Tag and push (replace `vX.Y.Z` with the version from the `.csproj`):
+
+```bash
+git tag vX.Y.Z
+git push origin vX.Y.Z
+```
+
+7. [ ] Watch [GitHub Actions](https://github.com/lkovari/profanity-comments-analyzer/actions): `ci` (build + test) must pass, then `publish` (pack + push to NuGet.org).
+8. [ ] Confirm the package on [nuget.org/packages/ProfanityCommentsAnalyzer](https://www.nuget.org/packages/ProfanityCommentsAnalyzer).
+
+#### Manual push (optional)
+
+If you need to upload from your machine instead of CI, create a scoped [API key](https://www.nuget.org/account/apikeys) and run:
+
+```bash
+dotnet nuget push ./artifacts/ProfanityCommentsAnalyzer.X.Y.Z.nupkg \
+  --api-key YOUR_NUGET_API_KEY \
+  --source https://api.nuget.org/v3/index.json
+```
+
 ### Build, test, pack
 
 ```bash
@@ -412,29 +457,18 @@ Workflow: [`.github/workflows/build.yml`](.github/workflows/build.yml)
 
 ### Publish to nuget.org
 
+See **[Release checklist](#release-checklist)** for the full flow. Summary:
+
 **Automated (recommended):** push a version tag after bumping `<Version>` in `ProfanityCommentsAnalyzer.csproj`:
 
 ```bash
-git tag v2.0.2
-git push origin v2.0.2
+git tag vX.Y.Z
+git push origin vX.Y.Z
 ```
 
-The [`build.yml`](.github/workflows/build.yml) workflow publishes to NuGet.org when a `v*` tag is pushed, using [NuGet trusted publishing](https://learn.microsoft.com/nuget/nuget-org/trusted-publishing) (OIDC — no long-lived API key in GitHub secrets).
+The [`build.yml`](.github/workflows/build.yml) workflow runs `ci` on every push/PR, and on `v*` tags runs `publish` (pack + NuGet push) using trusted publishing — no long-lived API key in GitHub secrets.
 
-**One-time setup:**
-
-1. On [nuget.org → Trusted Publishing](https://www.nuget.org/manage/trustedpublishers), add a policy for this repo (`build.yml`, environment `production`, owner `lkovari`).
-2. On GitHub: **Settings → Environments → New environment** → name it **`production`**.
-
-The workflow requests a short-lived key via `NuGet/login@v1` at publish time.
-
-**Manual push** (local): create a scoped [API key](https://www.nuget.org/account/apikeys) on nuget.org and use:
-
-```bash
-dotnet nuget push ./artifacts/ProfanityCommentsAnalyzer.2.0.2.nupkg \
-  --api-key YOUR_NUGET_API_KEY \
-  --source https://api.nuget.org/v3/index.json
-```
+**Manual push** (local): see [Release checklist → Manual push](#manual-push-optional).
 
 ## License
 
