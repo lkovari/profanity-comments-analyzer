@@ -388,7 +388,7 @@ To change built-in defaults:
 
 ### Release checklist
 
-End-to-end steps to ship a new version to [nuget.org](https://www.nuget.org). Details for each phase are in the sections below.
+End-to-end steps to ship a new version to [nuget.org](https://www.nuget.org).
 
 #### One-time setup (do once)
 
@@ -401,8 +401,8 @@ No `NUGET_API_KEY` repository secret is required — CI uses [trusted publishing
 
 1. [ ] Update word lists if needed ([Edit embedded word lists](#edit-embedded-word-lists) above).
 2. [ ] Add a `[X.Y.Z]` entry to `CHANGELOG.md`.
-3. [ ] Bump `<Version>` in `ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj` (must match the tag, e.g. `2.0.3`).
-4. [ ] Run locally:
+3. [ ] Bump `<Version>` in `ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj` — this is the **NuGet package version** (not the git tag alone).
+4. [ ] Run locally (**does not publish** — verification only):
 
 ```bash
 dotnet build -c Release
@@ -410,28 +410,103 @@ dotnet test -c Release
 dotnet pack ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj -c Release -o ./artifacts
 ```
 
-5. [ ] Commit and push to `main`.
-6. [ ] Tag and push (replace `vX.Y.Z` with the version from the `.csproj`):
+5. [ ] **Commit and push to `main` before tagging.** The tag must point at a commit that already contains the bumped `<Version>`. If you tag first and bump later, CI will publish the old version number.
+6. [ ] **Publish to NuGet** — push a version tag (replace `X.Y.Z` with the value from the `.csproj`):
 
 ```bash
 git tag vX.Y.Z
 git push origin vX.Y.Z
 ```
 
-7. [ ] Watch [GitHub Actions](https://github.com/lkovari/profanity-comments-analyzer/actions): `ci` (build + test) must pass, then `publish` (pack + push to NuGet.org).
-8. [ ] Confirm the package on [nuget.org/packages/ProfanityCommentsAnalyzer](https://www.nuget.org/packages/ProfanityCommentsAnalyzer).
+7. [ ] Watch [GitHub Actions](https://github.com/lkovari/profanity-comments-analyzer/actions): job `ci` (build + test), then job `publish` (pack + push).
+8. [ ] Wait a few minutes for NuGet indexing, then confirm at [nuget.org/packages/ProfanityCommentsAnalyzer](https://www.nuget.org/packages/ProfanityCommentsAnalyzer) and under [Manage Packages](https://www.nuget.org/account/Packages).
+
+#### Fix a mistagged release
+
+If you pushed `v2.0.3` but forgot to commit the `.csproj` bump, CI published the **previous** `<Version>` (e.g. `2.0.2`). Fix:
+
+```bash
+git add ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj README.md CHANGELOG.md
+git commit -m "Bump version to X.Y.Z"
+git push origin main
+
+git tag -d vX.Y.Z
+git push origin :refs/tags/vX.Y.Z
+git tag vX.Y.Z
+git push origin vX.Y.Z
+```
 
 #### Manual push (optional)
 
-If you need to upload from your machine instead of CI, create a scoped [API key](https://www.nuget.org/account/apikeys) and run:
+**Publishes from your machine** — not used by CI. Create a scoped [API key](https://www.nuget.org/account/apikeys), pack locally, then:
 
 ```bash
+dotnet pack ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj -c Release -o ./artifacts
 dotnet nuget push ./artifacts/ProfanityCommentsAnalyzer.X.Y.Z.nupkg \
   --api-key YOUR_NUGET_API_KEY \
   --source https://api.nuget.org/v3/index.json
 ```
 
+### How publishing works
+
+#### Which commands publish?
+
+| Command / action | Publishes to NuGet? |
+|------------------|---------------------|
+| `dotnet build` | No |
+| `dotnet test` | No |
+| `dotnet pack` (local) | No — creates `.nupkg` in `./artifacts` only |
+| `git push origin main` | No — runs `ci` (build + test) only |
+| `git push origin vX.Y.Z` | **Yes** — triggers `publish` job |
+| `dotnet nuget push ...` (local) | **Yes** — manual upload |
+
+Only **`git push origin vX.Y.Z`** (automated) or **`dotnet nuget push`** (manual) upload to nuget.org.
+
+#### Automated flow (CI)
+
+Workflow: [`.github/workflows/build.yml`](.github/workflows/build.yml)
+
+```text
+git push origin vX.Y.Z
+        ↓
+   job: ci
+   restore → build → test (coverage gate)
+        ↓ (must pass)
+   job: publish  (only on v* tag pushes)
+   environment: production
+        ↓
+   checkout @ tag commit
+        ↓
+   dotnet pack  →  ProfanityCommentsAnalyzer.{Version}.nupkg
+        ↓
+   NuGet/login@v1  (OIDC → short-lived API key)
+        ↓
+   dotnet nuget push  →  nuget.org
+```
+
+| Trigger | GitHub Actions jobs |
+|---------|---------------------|
+| Pull request or push to `main` | `ci` only |
+| Push tag `v*` (e.g. `v2.0.3`) | `ci`, then `publish` |
+
+**Trusted publishing:** the `publish` job runs in GitHub environment **`production`**, requests an OIDC token from GitHub, and exchanges it with nuget.org via `NuGet/login@v1` for a **temporary** API key (about 1 hour). No long-lived secret is stored in the repository. The NuGet policy must match: owner `lkovari`, repo `profanity-comments-analyzer`, workflow `build.yml`, environment `production`.
+
+**Version source:** `dotnet pack` reads `<Version>` from `ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj` on the **tagged commit**. The git tag name (`v2.0.3`) is only the trigger — it does not set the package version. Tag and `<Version>` should match (e.g. tag `v2.0.3` → `<Version>2.0.3</Version>`).
+
+**After push:** nuget.org may take several minutes to show the package under [Manage Packages](https://www.nuget.org/account/Packages). If it is still missing after ~30 minutes, check email from NuGet.org for validation messages.
+
+#### Where the version lives
+
+| File | Role |
+|------|------|
+| `ProfanityCommentsAnalyzer/ProfanityCommentsAnalyzer.csproj` → `<Version>` | **NuGet package version** (source of truth for `dotnet pack`) |
+| Git tag `vX.Y.Z` | Triggers CI publish; should match `<Version>` |
+| `CHANGELOG.md` | Release notes |
+| `README.md` install examples | Documentation — update to match current release |
+
 ### Build, test, pack
+
+Local verification (**does not publish**):
 
 ```bash
 dotnet build -c Release
@@ -448,27 +523,11 @@ Package contents:
 
 ### CI and publish
 
-Workflow: [`.github/workflows/build.yml`](.github/workflows/build.yml)
+See **[How publishing works](#how-publishing-works)** for the full pipeline. Quick reference:
 
-| Trigger | Action |
-|---------|--------|
-| Pull request or push to `main` | Build and test (with coverage) |
-| Push tag `v*` (e.g. `v2.0.3`) | Pack and publish to [nuget.org](https://www.nuget.org) |
-
-### Publish to nuget.org
-
-See **[Release checklist](#release-checklist)** for the full flow. Summary:
-
-**Automated (recommended):** push a version tag after bumping `<Version>` in `ProfanityCommentsAnalyzer.csproj`:
-
-```bash
-git tag vX.Y.Z
-git push origin vX.Y.Z
-```
-
-The [`build.yml`](.github/workflows/build.yml) workflow runs `ci` on every push/PR, and on `v*` tags runs `publish` (pack + NuGet push) using trusted publishing — no long-lived API key in GitHub secrets.
-
-**Manual push** (local): see [Release checklist → Manual push](#manual-push-optional).
+- **`main`** → build and test only.
+- **`v* tag`** → build, test, pack, and push to [nuget.org](https://www.nuget.org).
+- **Manual push** → [Release checklist → Manual push](#manual-push-optional).
 
 ## License
 
