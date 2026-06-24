@@ -1,0 +1,1146 @@
+{
+  "code": "en",
+  "name": "English",
+  "entries": [
+    {
+      "word": "wtf",
+      "pattern": "\\bw[t*][f*]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "damn",
+      "pattern": "\\bd[a@]mn\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "crap",
+      "pattern": "\\bcr[a@]p\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "hell",
+      "pattern": "\\bh[e3]ll\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "ass",
+      "pattern": "\\b[a@][s$][s$]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dumb",
+      "pattern": "\\bdumb\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "stupid",
+      "pattern": "\\bstupid\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "idiot",
+      "pattern": "\\bidiot\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "moron",
+      "pattern": "\\bmoron\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "jerk",
+      "pattern": "\\bjerk\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "shit",
+      "pattern": "\\b[s$][h#][i1!][t+]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "bullshit",
+      "pattern": "\\bbull[s$][h#][i1!][t+]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "bastard",
+      "pattern": "\\bb[a@]st[a@]rd\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "bitch",
+      "pattern": "\\bb[i1][t+]ch\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "dick",
+      "pattern": "\\bd[i1]ck\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "cock",
+      "pattern": "\\bc[o0]ck\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "piss",
+      "pattern": "\\bp[i1][s$][s$]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "asshole",
+      "pattern": "\\b[a@][s$][s$]h[o0]l[e3]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "cunt",
+      "pattern": "\\bc[u*][n]t\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "fuck",
+      "pattern": "\\bf[u*][c(][k*]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "fucking",
+      "pattern": "\\bf[u*][c(][k*]in[g]?\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "motherfucker",
+      "pattern": "\\bm[o0]th[e3]rf[u*][c(][k*]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "I'll kill",
+      "pattern": "i[''`]?ll\\s+kill\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "gonna kill",
+      "pattern": "\\bgonna\\s+kill\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "should be killed",
+      "pattern": "\\bshould\\s+be\\s+killed\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "want to kill",
+      "pattern": "\\bwant\\s+to\\s+kill\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "could kill",
+      "pattern": "\\bcould\\s+kill\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "would kill",
+      "pattern": "\\bwould\\s+kill\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "I'll shoot",
+      "pattern": "i[''`]?ll\\s+shoot\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "gonna shoot",
+      "pattern": "\\bgonna\\s+shoot\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "should be shot",
+      "pattern": "\\bshould\\s+be\\s+shot\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "beat them up",
+      "pattern": "\\bbeat\\s+(them|him|her|you)\\s+up\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "punch",
+      "pattern": "\\bpunch\\s+(them|him|her|you|this|whoever)\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "smack",
+      "pattern": "\\bsmack\\s+(them|him|her|you|whoever)\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "slap",
+      "pattern": "\\bslap\\s+(them|him|her|you|whoever)\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "I'll hit",
+      "pattern": "i[''`]?ll\\s+hit\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "strangle",
+      "pattern": "\\bstrangl[e3]\\s+(them|him|her|you|whoever)\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "choke",
+      "pattern": "\\bchoke\\s+(them|him|her|you|whoever)\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "gonna hurt",
+      "pattern": "\\bgonna\\s+hurt\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "I'll hurt",
+      "pattern": "i[''`]?ll\\s+hurt\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "destroy whoever",
+      "pattern": "\\bdestroy\\s+(them|him|her|you|whoever|this\\s+dev)\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "break their fingers",
+      "pattern": "\\bbreak\\s+(their|his|her|your)\\s+finger",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "break their hands",
+      "pattern": "\\bbreak\\s+(their|his|her|your)\\s+hand",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "snap",
+      "pattern": "\\bsnap\\s+(their|his|her|your)\\s+(neck|wrist|fingers)\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "drown",
+      "pattern": "\\bdrown\\s+(them|him|her|you|whoever)\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "should be drowned",
+      "pattern": "\\bshould\\s+be\\s+drowned\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "should be fired",
+      "pattern": "\\bshould\\s+be\\s+fired\\b",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "deserves to be fired",
+      "pattern": "\\bdeserves?\\s+to\\s+be\\s+fired\\b",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "retard",
+      "pattern": "\\br[e3]t[a@]rd\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "nigger",
+      "pattern": "\\bn[i1]gg[e3]r\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "nigga",
+      "pattern": "\\bn[i1]gg[a@]\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "complete mess",
+      "pattern": "compl[e3]te\\s+m[e3]ss",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "needs to be rewritten",
+      "pattern": "n[e3][e3]ds\\s+to\\s+be\\s+r[e3]writt[e3]n",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "rewrite this",
+      "pattern": "r[e3]writ[e3]\\s+this",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "throw this away",
+      "pattern": "throw\\s+this\\s+[a@]w[a@]y",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "who wrote this",
+      "pattern": "who\\s+wrote\\s+this",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "what is this",
+      "pattern": "what\\s+(the\\s+hell\\s+)?is\\s+this",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "this is wrong",
+      "pattern": "this\\s+is\\s+wrong",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "this is horrible",
+      "pattern": "this\\s+is\\s+horribl[e3]",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "dumpster fire",
+      "pattern": "dumps?t[e3]r\\s+fir[e3]",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "this shouldn't exist",
+      "pattern": "this\\s+shouldn.?t\\s+[e3]xist",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "unmaintainable",
+      "pattern": "\\bunm[a@]int[a@]in[a@]bl[e3]\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "this is embarrassing",
+      "pattern": "this\\s+is\\s+[e3]mb[a@]rr[a@]ssing",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "shame",
+      "pattern": "\\bsh[a@]m[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "junk code",
+      "pattern": "junk\\s+cod[e3]",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "hack",
+      "pattern": "\\bhack(y|ish)?\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "copy paste",
+      "pattern": "copy[-\\s]paste[d]?",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "no error handling",
+      "pattern": "no\\s+[e3]rror\\s+h[a@]ndling",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "no try catch",
+      "pattern": "no\\s+try[-\\s]catch",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "no validation",
+      "pattern": "no\\s+v[a@]lid[a@]tion",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "hardcoded",
+      "pattern": "\\bh[a@]rdcod[e3]d\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "magic number",
+      "pattern": "m[a@]gic\\s+numb[e3]r",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "magic string",
+      "pattern": "m[a@]gic\\s+string",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "antipattern",
+      "pattern": "\\b[a@]nti[-\\s]?p[a@]tt[e3]rn\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "god class",
+      "pattern": "\\bgod[-\\s]cl[a@]ss\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "god object",
+      "pattern": "\\bgod[-\\s]obj[e3]ct\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "not scalable",
+      "pattern": "not\\s+sc[a@]l[a@]bl[e3]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "not testable",
+      "pattern": "not\\s+t[e3]st[a@]bl[e3]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "tech debt",
+      "pattern": "t[e3]ch[-\\s]d[e3]bt",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "this is all wrong",
+      "pattern": "this\\s+is\\s+[a@]ll\\s+wrong",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "should never do this",
+      "pattern": "should\\s+n[e3]v[e3]r\\s+do\\s+this",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "never do this",
+      "pattern": "n[e3]v[e3]r\\s+do\\s+this",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "bad approach",
+      "pattern": "b[a@]d\\s+[a@]pproach",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "wrong approach",
+      "pattern": "wrong\\s+[a@]pproach",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "please don't",
+      "pattern": "pl[e3][a@]s[e3]\\s+don.?t",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "no separation of concerns",
+      "pattern": "no\\s+s[e3]p[a@]r[a@]tion\\s+of\\s+conc[e3]rns",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "memory leak",
+      "pattern": "m[e3]mory\\s+l[e3][a@]k",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "race condition",
+      "pattern": "r[a@]ce\\s+condition",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "O(n^2)",
+      "pattern": "O\\s*\\(\\s*n\\s*[\\^\\*]\\s*2\\s*\\)",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "no idea",
+      "pattern": "no\\s+id[e3][a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "I have no idea",
+      "pattern": "i\\s+h[a@]ve\\s+no\\s+id[e3][a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "no clue",
+      "pattern": "no\\s+clu[e3]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "I don't understand",
+      "pattern": "i\\s+don.?t\\s+und[e3]rst[a@]nd",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "why does this work",
+      "pattern": "why\\s+do[e3]s\\s+this\\s+work",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "why is this here",
+      "pattern": "why\\s+is\\s+this\\s+h[e3]r[e3]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "black magic",
+      "pattern": "bl[a@]ck\\s+m[a@]gic",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "don't touch this",
+      "pattern": "don.?t\\s+touch\\s+this",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "don't ask",
+      "pattern": "don.?t\\s+[a@]sk",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "nobody knows",
+      "pattern": "nobod[y]?\\s+knows",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "no one knows",
+      "pattern": "no\\s+on[e3]\\s+knows",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "works but why",
+      "pattern": "works\\s+(but|and)\\s+(why|idk|idek)",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "somehow works",
+      "pattern": "somehow\\s+works",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "dark magic",
+      "pattern": "d[a@]rk\\s+m[a@]gic",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "voodoo",
+      "pattern": "\\bvoodoo\\b",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "impossible to follow",
+      "pattern": "imp[o0]ssibl[e3]\\s+to\\s+follow",
+      "severity": "severe",
+      "category": "confusion"
+    },
+    {
+      "word": "dumbass",
+      "pattern": "\\bdumb[a@]ss\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "jackass",
+      "pattern": "\\bj[a@]ck[a@]ss\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "dummy",
+      "pattern": "\\bdummy\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "clusterfuck",
+      "pattern": "\\bclusterf[u*][c(]k\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "bozo",
+      "pattern": "\\bb[o0]z[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dimwit",
+      "pattern": "\\bdimw[i1]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nitwit",
+      "pattern": "\\bn[i1]tw[i1]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "halfwit",
+      "pattern": "\\bh[a@]lfw[i1]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "fool",
+      "pattern": "\\bf[o0][o0]l\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "knucklehead",
+      "pattern": "\\bknuckleh[e3][a@]d\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "bonehead",
+      "pattern": "\\bb[o0]neh[e3][a@]d(ed)?\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "blockhead",
+      "pattern": "\\bbl[o0]ckh[e3][a@]d\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "numskull",
+      "pattern": "\\bnumskull\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "lamebrain",
+      "pattern": "\\bl[a@]mebr[a@]in\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "pea-brain",
+      "pattern": "\\bp[e3][a@][-\\s]br[a@]in\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "meathead",
+      "pattern": "\\bm[e3][a@]th[e3][a@]d\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "pinhead",
+      "pattern": "\\bp[i1]nh[e3][a@]d\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "airhead",
+      "pattern": "\\b[a@]irh[e3][a@]d\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "birdbrain",
+      "pattern": "\\bb[i1]rdbr[a@]in\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "ding-dong",
+      "pattern": "\\bding[-\\s]d[o0]ng\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "doofus",
+      "pattern": "\\bd[o0][o0]fus\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dope",
+      "pattern": "\\bd[o0]pe\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dunce",
+      "pattern": "\\bdunce\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dunderhead",
+      "pattern": "\\bdunderh[e3][a@]d\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "goofball",
+      "pattern": "\\bg[o0][o0]fb[a@]ll\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "goof",
+      "pattern": "\\bg[o0][o0]f\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nincompoop",
+      "pattern": "\\bninc[o0]mp[o0][o0]p\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "ninny",
+      "pattern": "\\bninny\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "twit",
+      "pattern": "\\btw[i1]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nit",
+      "pattern": "\\bn[i1]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "schmuck",
+      "pattern": "\\bschmuck\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "prick",
+      "pattern": "\\bpr[i1]ck\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "dipstick",
+      "pattern": "\\bd[i1]pst[i1]ck\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dingbat",
+      "pattern": "\\bdingb[a@]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "clown",
+      "pattern": "\\bcl[o0]wn\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "amateur",
+      "pattern": "\\b[a@]m[a@]teur\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "rookie",
+      "pattern": "\\br[o0][o0]kie\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "lunatic",
+      "pattern": "\\blun[a@]tic\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "incompetent",
+      "pattern": "\\binc[o0]mpetent\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "useless",
+      "pattern": "\\buseless\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "worthless",
+      "pattern": "\\bw[o0]rthless\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "sloppy",
+      "pattern": "\\bsl[o0]ppy\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "disgrace",
+      "pattern": "\\bdisgr[a@]ce\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "abomination",
+      "pattern": "\\b[a@]b[o0]min[a@]ti[o0]n\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "monstrosity",
+      "pattern": "\\bm[o0]nstr[o0]sity\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "disaster",
+      "pattern": "\\bdis[a@]ster\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "trainwreck",
+      "pattern": "\\btr[a@]inwreck\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "hot mess",
+      "pattern": "\\bh[o0]t\\s+mess\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "shitshow",
+      "pattern": "\\b[s$]h[i1]t[s$]h[o0]w\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "shitstorm",
+      "pattern": "\\b[s$]h[i1]t[s$]t[o0]rm\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "hellhole",
+      "pattern": "\\bhellh[o0]le\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "nightmare",
+      "pattern": "\\bnightm[a@]re\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "cancer",
+      "pattern": "\\bc[a@]ncer\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "toxic",
+      "pattern": "\\bt[o0]xic\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "broken",
+      "pattern": "\\bbr[o0]ken\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "busted",
+      "pattern": "\\bbusted\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "dead code",
+      "pattern": "\\bd[e3][a@]d\\s+c[o0]de\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "spaghetti",
+      "pattern": "\\bsp[a@]ghetti\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "laughable",
+      "pattern": "\\bl[a@]ugh[a@]ble\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "pathetic",
+      "pattern": "\\bp[a@]thetic\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "atrocious",
+      "pattern": "\\b[a@]tr[o0]ci[o0]us\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "horrific",
+      "pattern": "\\bh[o0]rrific\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "terrible",
+      "pattern": "\\bterrible\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "awful",
+      "pattern": "\\b[a@]wful\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "godawful",
+      "pattern": "\\bg[o0]d[a@]wful\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "horrendous",
+      "pattern": "\\bh[o0]rrend[o0]us\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ridiculous",
+      "pattern": "\\brid[i1]cul[o0]us\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "absurd",
+      "pattern": "\\b[a@]bsurd\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "insane",
+      "pattern": "\\bins[a@]ne\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "madness",
+      "pattern": "\\bm[a@]dness\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "mayhem",
+      "pattern": "\\bm[a@]yhem\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "chaos",
+      "pattern": "\\bch[a@][o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "garbage",
+      "pattern": "\\bg[a@]rb[a@]ge\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "trash",
+      "pattern": "\\btr[a@]sh\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "junk",
+      "pattern": "\\bjunk\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "lazy",
+      "pattern": "\\bl[a@]zy\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "brain-dead",
+      "pattern": "\\bbr[a@]in[-\\s]d[e3][a@]d\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "duct tape",
+      "pattern": "\\bduct\\s+t[a@]pe\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "band-aid",
+      "pattern": "\\bb[a@]nd[-\\s][a@]id\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "kludge",
+      "pattern": "\\bkludge\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "botch",
+      "pattern": "\\bb[o0]tch(ed)?\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "fumble",
+      "pattern": "\\bfumble\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "blunder",
+      "pattern": "\\bblunder\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "foul-up",
+      "pattern": "\\bf[o0]ul[-\\s]up\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "screwup",
+      "pattern": "\\bscrewup\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    }
+  ]
+}

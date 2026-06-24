@@ -1,0 +1,894 @@
+{
+  "code": "it",
+  "name": "Italian",
+  "entries": [
+    {
+      "word": "cazzo",
+      "pattern": "\\bc[a@]zzo\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "merda",
+      "pattern": "\\bm[e3]rd[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "stronzo",
+      "pattern": "\\bstr[o0]nz[o0]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "stronza",
+      "pattern": "\\bstr[o0]nz[a@]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "vaffanculo",
+      "pattern": "\\bv[a@]ff[a@]ncul[o0]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "coglione",
+      "pattern": "\\bc[o0]gli[o0]n[e3]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "puttana",
+      "pattern": "\\bputt[a@]n[a@]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "porca puttana",
+      "pattern": "p[o0]rc[a@]\\s+putt[a@]n[a@]",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "troia",
+      "pattern": "\\btr[o0]i[a@]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "bastardo",
+      "pattern": "\\bb[a@]st[a@]rd[o0]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "minchia",
+      "pattern": "\\bminchi[a@]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "figa",
+      "pattern": "\\bfig[a@]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "cesso",
+      "pattern": "\\bc[e3]ss[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "idiota",
+      "pattern": "\\bidi[o0]t[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "stupido",
+      "pattern": "\\bstupid[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "cretino",
+      "pattern": "\\bcr[e3]tin[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "scemo",
+      "pattern": "\\bsc[e3]m[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "ti ammazzo",
+      "pattern": "\\bti\\s+[a@]mm[a@]zz[o0]\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "ti uccido",
+      "pattern": "\\bti\\s+uccid[o0]\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "ti meno",
+      "pattern": "\\bti\\s+m[e3]n[o0]\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "ti picchio",
+      "pattern": "\\bti\\s+picchi[o0]\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "ti spacco",
+      "pattern": "\\bti\\s+sp[a@]cc[o0]\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "dovrebbe essere licenziato",
+      "pattern": "d[o0]vr[e3]bb[e3]\\s+[e3]ss[e3]r[e3]\\s+lic[e3]nzi[a@]t[o0]",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "chi ha scritto questo merita",
+      "pattern": "chi\\s+h[a@]\\s+scritt[o0]\\s+qu[e3]st[o0]\\s+m[e3]rit[a@]",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "frocio",
+      "pattern": "\\bfr[o0]ci[o0]\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "terrone",
+      "pattern": "\\bt[e3]rr[o0]n[e3]\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "ritardato",
+      "pattern": "\\brit[a@]rd[a@]t[o0]\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "da riscrivere",
+      "pattern": "d[a@]\\s+riscriver[e3]",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "chi ha scritto questo",
+      "pattern": "chi\\s+h[a@]\\s+scritto\\s+qu[e3]sto",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "è sbagliato",
+      "pattern": "[eè]\\s+sb[a@]gli[a@]to",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "è rotto",
+      "pattern": "[eè]\\s+rotto",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "orribile",
+      "pattern": "\\borribile\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "terribile",
+      "pattern": "\\bt[e3]rribile\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "catastrofico",
+      "pattern": "\\bc[a@]t[a@]strofico\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "da buttare",
+      "pattern": "d[a@]\\s+butt[a@]r[e3]",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "vergogna",
+      "pattern": "\\bv[e3]rgogn[a@]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "non funziona",
+      "pattern": "non\\s+funzion[a@]",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "impossibile da mantenere",
+      "pattern": "impossibil[e3]\\s+d[a@]\\s+m[a@]nt[e3]n[e3]r[e3]",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "copia incolla",
+      "pattern": "copi[a@]\\s+inc[o0]ll[a@]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "copy paste",
+      "pattern": "copy[-\\s]paste",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nessuna gestione degli errori",
+      "pattern": "n[e3]ssun[a@]\\s+g[e3]sti[o0]n[e3]\\s+d[e3]gli\\s+[e3]rrori",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "nessuna validazione",
+      "pattern": "n[e3]ssun[a@]\\s+v[a@]lid[a@]zi[o0]n[e3]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "hardcodato",
+      "pattern": "\\bh[a@]rdcod[a@]to\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "numero magico",
+      "pattern": "num[e3]ro\\s+m[a@]gico",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "debito tecnico",
+      "pattern": "d[e3]bito\\s+t[e3]cnico",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "non scalabile",
+      "pattern": "non\\s+sc[a@]l[a@]bil[e3]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "non testabile",
+      "pattern": "non\\s+t[e3]st[a@]bil[e3]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "approccio sbagliato",
+      "pattern": "[a@]pproccio\\s+sb[a@]gli[a@]to",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "perdita di memoria",
+      "pattern": "p[e3]rdit[a@]\\s+di\\s+m[e3]mori[a@]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "non si dovrebbe mai fare così",
+      "pattern": "non\\s+si\\s+dovr[e3]bb[e3]\\s+m[a@]i\\s+f[a@]r[e3]\\s+cos[ìi]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "non ne ho idea",
+      "pattern": "non\\s+n[e3]\\s+ho\\s+id[e3][a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "non capisco",
+      "pattern": "non\\s+c[a@]pisco",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "perché funziona",
+      "pattern": "p[e3]rch[eé]\\s+funzion[a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "nessuno sa perché",
+      "pattern": "n[e3]ssuno\\s+s[a@]\\s+p[e3]rch[eé]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "non toccare",
+      "pattern": "non\\s+tocc[a@]r[e3]",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "magia nera",
+      "pattern": "m[a@]gi[a@]\\s+n[e3]r[a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "completamente oscuro",
+      "pattern": "compl[e3]t[a@]m[e3]nt[e3]\\s+oscuro",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "non ha senso",
+      "pattern": "non\\s+h[a@]\\s+s[e3]nso",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "mistero",
+      "pattern": "\\bmist[e3]ro\\b",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "deficiente",
+      "pattern": "\\bd[e3]fici[e3]nt[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "imbecille",
+      "pattern": "\\bimb[e3]cill[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "cazzata",
+      "pattern": "\\bc[a@]zz[a@]t[a@]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "porco dio",
+      "pattern": "p[o0]rc[o0]\\s+di[o0]",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "pirla",
+      "pattern": "\\bpirl[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "fesso",
+      "pattern": "\\bf[e3]ss[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "imbranato",
+      "pattern": "\\bimbr[a@]n[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dilettante",
+      "pattern": "\\bdil[e3]tt[a@]nt[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "sprovveduto",
+      "pattern": "\\bspr[o0]vv[e3]dut[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "incapace",
+      "pattern": "\\binc[a@]p[a@]c[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "disgraziato",
+      "pattern": "\\bdisgr[a@]zi[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "poveraccio",
+      "pattern": "\\bp[o0]v[e3]r[a@]cci[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "mentecatto",
+      "pattern": "\\bm[e3]nt[e3]c[a@]tt[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "balordo",
+      "pattern": "\\bb[a@]l[o0]rd[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "tonto",
+      "pattern": "\\bt[o0]nt[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "bestia",
+      "pattern": "\\bb[e3]sti[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "asino",
+      "pattern": "\\b[a@]sin[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "somaro",
+      "pattern": "\\bs[o0]m[a@]r[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "ciuco",
+      "pattern": "\\bciuc[o0]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "pecorone",
+      "pattern": "\\bp[e3]c[o0]r[o0]n[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "incompetente",
+      "pattern": "\\binc[o0]mp[e3]t[e3]nt[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "schifo",
+      "pattern": "\\bschif[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "porcheria",
+      "pattern": "\\bp[o0]rch[e3]ri[a@]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "schifezza",
+      "pattern": "\\bschif[e3]zz[a@]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "robaccia",
+      "pattern": "\\br[o0]b[a@]cci[a@]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "spazzatura",
+      "pattern": "\\bsp[a@]zz[a@]tur[a@]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "immondizia",
+      "pattern": "\\bimm[o0]ndizi[a@]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ciarpame",
+      "pattern": "\\bci[a@]rp[a@]m[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "pattume",
+      "pattern": "\\bp[a@]ttum[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "fanghiglia",
+      "pattern": "\\bf[a@]nghigli[a@]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "guazzabuglio",
+      "pattern": "\\bgu[a@]zz[a@]bugli[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "pasticcio",
+      "pattern": "\\bp[a@]sticci[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "bordello",
+      "pattern": "\\bb[o0]rd[e3]ll[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "casino",
+      "pattern": "\\bc[a@]sin[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "macello",
+      "pattern": "\\bm[a@]c[e3]ll[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "disastro",
+      "pattern": "\\bdis[a@]str[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "catastrofe",
+      "pattern": "\\bc[a@]t[a@]str[o0]f[e3]\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "caos",
+      "pattern": "\\bc[a@][o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "inferno",
+      "pattern": "\\binf[e3]rn[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "incubo",
+      "pattern": "\\bincub[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "scandalo",
+      "pattern": "\\bsc[a@]nd[a@]l[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "orrore",
+      "pattern": "\\b[o0]rr[o0]r[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "aberrazione",
+      "pattern": "\\b[a@]b[e3]rr[a@]zi[o0]n[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "abominio",
+      "pattern": "\\b[a@]b[o0]mini[o0]\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "mostruosità",
+      "pattern": "\\bm[o0]stru[o0]sità\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "pessimo",
+      "pattern": "\\bp[e3]ssim[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "atroce",
+      "pattern": "\\b[a@]tr[o0]c[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "indecente",
+      "pattern": "\\bind[e3]c[e3]nt[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "inaccettabile",
+      "pattern": "\\bin[a@]cc[e3]tt[a@]bil[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "assurdo",
+      "pattern": "\\b[a@]ssurd[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ridicolo",
+      "pattern": "\\bridic[o0]l[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "patetico",
+      "pattern": "\\bp[a@]t[e3]tic[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "penoso",
+      "pattern": "\\bp[e3]n[o0]s[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "deplorevole",
+      "pattern": "\\bd[e3]pl[o0]r[e3]v[o0]l[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "miserabile",
+      "pattern": "\\bmis[e3]r[a@]bil[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "pietoso",
+      "pattern": "\\bpi[e3]t[o0]s[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "scadente",
+      "pattern": "\\bsc[a@]d[e3]nt[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "mediocre",
+      "pattern": "\\bm[e3]di[o0]cr[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "caotico",
+      "pattern": "\\bc[a@][o0]tic[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "intricato",
+      "pattern": "\\bintric[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "aggrovigliato",
+      "pattern": "\\b[a@]ggr[o0]vigli[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "convoluto",
+      "pattern": "\\bc[o0]nv[o0]lut[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "labirintico",
+      "pattern": "\\bl[a@]birintic[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "spaghetti",
+      "pattern": "\\bsp[a@]gh[e3]tti\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "minestrone",
+      "pattern": "\\bmin[e3]str[o0]n[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "accozzaglia",
+      "pattern": "\\b[a@]cc[o0]zz[a@]gli[a@]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "giungla",
+      "pattern": "\\bgiungl[a@]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "palude",
+      "pattern": "\\bp[a@]lud[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "fogna",
+      "pattern": "\\bf[o0]gn[a@]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "letamaio",
+      "pattern": "\\bl[e3]t[a@]m[a@]i[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "porcile",
+      "pattern": "\\bp[o0]rcil[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "lurido",
+      "pattern": "\\blurid[o0]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "lerciume",
+      "pattern": "\\bl[e3]rcium[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "sfacelo",
+      "pattern": "\\bsf[a@]c[e3]l[o0]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "pigro",
+      "pattern": "\\bpigr[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "negligente",
+      "pattern": "\\bn[e3]glig[e3]nt[e3]\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "approssimativo",
+      "pattern": "\\b[a@]ppr[o0]ssim[a@]tiv[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "raffazzonato",
+      "pattern": "\\br[a@]ff[a@]zz[o0]n[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "rattoppato",
+      "pattern": "\\br[a@]tt[o0]pp[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "rabberciato",
+      "pattern": "\\br[a@]bb[e3]rci[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "improvvisato",
+      "pattern": "\\bimpr[o0]vvis[a@]t[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "patchwork",
+      "pattern": "\\bp[a@]tchw[o0]rk\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "rattoppo",
+      "pattern": "\\br[a@]tt[o0]pp[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "cerotto",
+      "pattern": "\\bc[e3]r[o0]tt[o0]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "kludge",
+      "pattern": "\\bkludg[e3]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "hack sporco",
+      "pattern": "h[a@]ck\\s+sp[o0]rc[o0]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "bomba a orologeria",
+      "pattern": "b[o0]mb[a@]\\s+[a@]\\s+[o0]r[o0]l[o0]g[e3]ri[a@]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "trappola",
+      "pattern": "\\btr[a@]pp[o0]l[a@]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "campo minato",
+      "pattern": "c[a@]mp[o0]\\s+min[a@]t[o0]",
+      "severity": "moderate",
+      "category": "badPractice"
+    }
+  ]
+}

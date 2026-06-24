@@ -1,0 +1,876 @@
+{
+  "code": "ro",
+  "name": "Romanian",
+  "entries": [
+    {
+      "word": "prost",
+      "pattern": "\\bpr[o0]st\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "prostule",
+      "pattern": "\\bpr[o0]stul[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "idiot",
+      "pattern": "\\bidi[o0]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "tâmpit",
+      "pattern": "\\bt[âa]mpit\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dobitoc",
+      "pattern": "\\bd[o0]bit[o0]c\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "bou",
+      "pattern": "\\bb[o0]u\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nesimțit",
+      "pattern": "\\bnesim[țt]it\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "naiba",
+      "pattern": "\\bn[a@]ib[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dracu",
+      "pattern": "\\bdr[a@]cu\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "rahat",
+      "pattern": "\\br[a@]h[a@]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "căcat",
+      "pattern": "\\bc[ăa]c[a@]t\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "muie",
+      "pattern": "\\bmuie\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "curvă",
+      "pattern": "\\bcurv[ăa]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "coaie",
+      "pattern": "\\bc[o0][a@]ie\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "sugi",
+      "pattern": "\\bsugi\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "pizda",
+      "pattern": "\\bpizd[a@ă]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "pula",
+      "pattern": "\\bpul[a@ă]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "futu",
+      "pattern": "\\bf[u*]t[u*]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "fute",
+      "pattern": "\\bf[u*]t[e3]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "te omor",
+      "pattern": "\\bt[e3]\\s+[o0]m[o0]r\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "te împușc",
+      "pattern": "\\bt[e3]\\s+[îi]mpu[șs]c\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "te tai",
+      "pattern": "\\bt[e3]\\s+t[a@]i\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "te sugrum",
+      "pattern": "\\bt[e3]\\s+sugrum",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "te bat",
+      "pattern": "\\bt[e3]\\s+b[a@]t\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "îți rup",
+      "pattern": "[îi][țt]i\\s+rup",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "ar trebui concediat",
+      "pattern": "\\b[a@]r\\s+trebui\\s+c[o0]ncediat\\b",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "țigan",
+      "pattern": "\\b[țt]ig[a@]n\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "poponar",
+      "pattern": "\\bp[o0]p[o0]n[a@]r\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "retardat",
+      "pattern": "\\br[e3]t[a@]rd[a@]t\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "trebuie rescris",
+      "pattern": "tr[e3]bui[e3]\\s+r[e3]scris",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "cine a scris asta",
+      "pattern": "cin[e3]\\s+[a@]\\s+scris\\s+[a@]st[a@]",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "e greșit",
+      "pattern": "[e3]\\s+gre[sș]it",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "oribil",
+      "pattern": "\\boribil\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "groaznic",
+      "pattern": "\\bgroaznic\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "îngrozitor",
+      "pattern": "\\b[îi]ngrozitor\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "de aruncat",
+      "pattern": "d[e3]\\s+[a@]runc[a@]t",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "rușine",
+      "pattern": "\\bru[sș]in[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "nu funcționează",
+      "pattern": "nu\\s+func[tț]ion[e3][a@]z[aă]",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "catastrofă",
+      "pattern": "\\bc[a@]t[a@]strof[aă]\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "copy-paste",
+      "pattern": "copy[-\\s]paste",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "fără tratarea erorilor",
+      "pattern": "f[aă]r[aă]\\s+tr[a@]t[a@]r[e3][a@]\\s+[e3]rorilor",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "fără validare",
+      "pattern": "f[aă]r[aă]\\s+valid[a@]r[e3]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "hardcodat",
+      "pattern": "\\bh[a@]rdcod[a@]t\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "număr magic",
+      "pattern": "num[aă]r\\s+m[a@]gic",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "cod spaghetti",
+      "pattern": "cod\\s+sp[a@]gh[e3]tti",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "datorie tehnică",
+      "pattern": "d[a@]tori[e3]\\s+t[e3]hnic[aă]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nu e scalabil",
+      "pattern": "nu\\s+[e3]\\s+sc[a@]l[a@]bil",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nu e testabil",
+      "pattern": "nu\\s+[e3]\\s+t[e3]st[a@]bil",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "abordare greșită",
+      "pattern": "[a@]bord[a@]r[e3]\\s+gre[sș]it[aă]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "scurgere de memorie",
+      "pattern": "scurg[e3]r[e3]\\s+d[e3]\\s+m[e3]mori[e3]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "habar nu am",
+      "pattern": "h[a@]b[a@]r\\s+nu\\s+[a@]m",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "nu înțeleg",
+      "pattern": "nu\\s+[îi]n[tț][e3]l[e3]g",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "de ce funcționează",
+      "pattern": "d[e3]\\s+c[e3]\\s+func[tț]ion[e3][a@]z[aă]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "nimeni nu știe",
+      "pattern": "nim[e3]ni\\s+nu\\s+[sș]ti[e3]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "nu te atinge",
+      "pattern": "nu\\s+t[e3]\\s+[a@]tinge",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "magie neagră",
+      "pattern": "m[a@]gi[e3]\\s+n[e3][a@]gr[aă]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "complet neclar",
+      "pattern": "compl[e3]t\\s+n[e3]cl[a@]r",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "nu are sens",
+      "pattern": "nu\\s+[a@]r[e3]\\s+s[e3]ns",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "cretin",
+      "pattern": "\\bcr[e3]tin\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "fraier",
+      "pattern": "\\bfr[a@]i[e3]r\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nătăfleț",
+      "pattern": "\\bnătăfl[e3]ț\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "imbecil",
+      "pattern": "\\bimb[e3]cil\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nătâng",
+      "pattern": "\\bnătâng\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nerod",
+      "pattern": "\\bn[e3]r[o0]d\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "cap de lemn",
+      "pattern": "c[a@]p\\s+d[e3]\\s+l[e3]mn",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "cap pătrat",
+      "pattern": "c[a@]p\\s+pătr[a@]t",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "găgăuță",
+      "pattern": "\\bgăgăuță\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nătărău",
+      "pattern": "\\bnătărău\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "băltăreț",
+      "pattern": "\\bbăltăr[e3]ț\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "papă-lapte",
+      "pattern": "papă[-\\s]l[a@]pt[e3]",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "molâu",
+      "pattern": "\\bm[o0]lâu\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "fleșcăit",
+      "pattern": "\\bfl[e3]șcăit\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dilettant",
+      "pattern": "\\bdil[e3]tt[a@]nt\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "amator",
+      "pattern": "\\b[a@]m[a@]t[o0]r\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "începător",
+      "pattern": "\\bînc[e3]păt[o0]r\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nepriceput",
+      "pattern": "\\bn[e3]pric[e3]put\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "incompetent",
+      "pattern": "\\binc[o0]mp[e3]t[e3]nt\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "gunoi",
+      "pattern": "\\bgun[o0]i\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "prostie",
+      "pattern": "\\bpr[o0]sti[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "tâmpenie",
+      "pattern": "\\btâmp[e3]ni[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "mizerie",
+      "pattern": "\\bmiz[e3]ri[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "murdărie",
+      "pattern": "\\bmurdări[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "scârbă",
+      "pattern": "\\bscârbă\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "dezastru",
+      "pattern": "\\bd[e3]z[a@]stru\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "haos",
+      "pattern": "\\bh[a@][o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "dezordine",
+      "pattern": "\\bd[e3]z[o0]rdin[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "babilonie",
+      "pattern": "\\bb[a@]bil[o0]ni[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "harababură",
+      "pattern": "\\bh[a@]r[a@]b[a@]bură\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "încurcătură",
+      "pattern": "\\bîncurcătură\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "bucluc",
+      "pattern": "\\bbucluc\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "belele",
+      "pattern": "\\bb[e3]l[e3]l[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "năpastă",
+      "pattern": "\\bnăp[a@]stă\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "pacoste",
+      "pattern": "\\bp[a@]c[o0]st[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "nenorocire",
+      "pattern": "\\bn[e3]n[o0]r[o0]cir[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "prăpăd",
+      "pattern": "\\bprăpăd\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "coșmar",
+      "pattern": "\\bc[o0]șm[a@]r\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "iad",
+      "pattern": "\\bi[a@]d\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "scandal",
+      "pattern": "\\bsc[a@]nd[a@]l\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "teribil",
+      "pattern": "\\bt[e3]ribil\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "cumplit",
+      "pattern": "\\bcumplit\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "monstruos",
+      "pattern": "\\bm[o0]nstru[o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "abominabil",
+      "pattern": "\\b[a@]b[o0]min[a@]bil\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "aberant",
+      "pattern": "\\b[a@]b[e3]r[a@]nt\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "scandalos",
+      "pattern": "\\bsc[a@]nd[a@]l[o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "rușinos",
+      "pattern": "\\brușin[o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ridicol",
+      "pattern": "\\bridic[o0]l\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "absurd",
+      "pattern": "\\b[a@]bsurd\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "nebunie",
+      "pattern": "\\bn[e3]buni[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "aiureală",
+      "pattern": "\\b[a@]iur[e3]ală\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "aberație",
+      "pattern": "\\b[a@]b[e3]r[a@]ți[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "tâmpism",
+      "pattern": "\\btâmpism\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "prostism",
+      "pattern": "\\bpr[o0]stism\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "gogomănie",
+      "pattern": "\\bg[o0]g[o0]măni[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "nerozie",
+      "pattern": "\\bn[e3]r[o0]zi[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "stupizenie",
+      "pattern": "\\bstupiz[e3]ni[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "boiereală",
+      "pattern": "\\bb[o0]i[e3]r[e3]ală\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "mâzgăleală",
+      "pattern": "\\bmâzgăl[e3]ală\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "mocirlă",
+      "pattern": "\\bm[o0]cirlă\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "baltă",
+      "pattern": "\\bb[a@]ltă\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "mlaștină",
+      "pattern": "\\bml[a@]ștină\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "jungă",
+      "pattern": "\\bjungă\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "hățiș",
+      "pattern": "\\bhățiș\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "spaghete",
+      "pattern": "\\bsp[a@]gh[e3]t[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "mort",
+      "pattern": "\\bm[o0]rt\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "stricat",
+      "pattern": "\\bstric[a@]t\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "defect",
+      "pattern": "\\bd[e3]f[e3]ct\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "nefuncțional",
+      "pattern": "\\bn[e3]funcți[o0]n[a@]l\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "inutilizabil",
+      "pattern": "\\binutiliz[a@]bil\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "fără speranță",
+      "pattern": "fără\\s+sp[e3]r[a@]nță",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "epavă",
+      "pattern": "\\b[e3]p[a@]vă\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "nepăsător",
+      "pattern": "\\bn[e3]păsăt[o0]r\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "neglijent",
+      "pattern": "\\bn[e3]glij[e3]nt\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "leneș",
+      "pattern": "\\bl[e3]n[e3]ș\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "trândav",
+      "pattern": "\\btrând[a@]v\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "iresponsabil",
+      "pattern": "\\bir[e3]sp[o0]ns[a@]bil\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "inconștient",
+      "pattern": "\\binc[o0]nști[e3]nt\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "cârpeală",
+      "pattern": "\\bcârp[e3]ală\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "peticeală",
+      "pattern": "\\bp[e3]tic[e3]ală\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "improvizație",
+      "pattern": "\\bimpr[o0]viz[a@]ți[e3]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "soluție de avarie",
+      "pattern": "s[o0]luți[e3]\\s+d[e3]\\s+[a@]v[a@]ri[e3]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "bandă adezivă",
+      "pattern": "b[a@]ndă\\s+[a@]d[e3]zivă",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "plasture",
+      "pattern": "\\bpl[a@]stur[e3]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "bombă cu ceas",
+      "pattern": "b[o0]mbă\\s+cu\\s+c[e3][a@]s",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "capcană",
+      "pattern": "\\bc[a@]pc[a@]nă\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "teren minat",
+      "pattern": "t[e3]r[e3]n\\s+min[a@]t",
+      "severity": "moderate",
+      "category": "badPractice"
+    }
+  ]
+}

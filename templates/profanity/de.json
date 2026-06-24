@@ -1,0 +1,864 @@
+{
+  "code": "de",
+  "name": "German",
+  "entries": [
+    {
+      "word": "Scheiße",
+      "pattern": "\\bSche(i|y)[sß][se]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Mist",
+      "pattern": "\\bMist\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Idiot",
+      "pattern": "\\bIdiot\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Depp",
+      "pattern": "\\bDepp\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Vollidiot",
+      "pattern": "\\bVollidiot\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "Arschloch",
+      "pattern": "\\bArschloch\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "Wichser",
+      "pattern": "\\bWichser\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "Hurensohn",
+      "pattern": "\\bHurens[o0]hn\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "Fick dich",
+      "pattern": "\\bFick\\s+dich\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "Scheiß",
+      "pattern": "\\bSchei[sß]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "ich bringe dich um",
+      "pattern": "ich\\s+bring[e]?\\s+(dich|ihn|sie)\\s+um",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "ich töte dich",
+      "pattern": "ich\\s+t[oö]te\\s+(dich|ihn|sie)",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "ich schlage dich",
+      "pattern": "ich\\s+schlag[e]?\\s+(dich|ihn|sie)",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "ich hau dich",
+      "pattern": "ich\\s+hau[e]?\\s+(dich|ihn|sie)",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "sollte gefeuert werden",
+      "pattern": "sollte\\s+gefeuert\\s+werden",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "wer das geschrieben hat",
+      "pattern": "wer\\s+das\\s+geschrieben\\s+hat",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "Schwuchtel",
+      "pattern": "\\bSchwucht[e3]l\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "Spasti",
+      "pattern": "\\bSp[a@]sti\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "Neger",
+      "pattern": "\\bN[e3]g[e3]r\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "muss neu geschrieben werden",
+      "pattern": "muss\\s+neu\\s+geschrieben\\s+werden",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "das ist falsch",
+      "pattern": "das\\s+ist\\s+falsch",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "furchtbar",
+      "pattern": "\\bfurchtbar\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "schrecklich",
+      "pattern": "\\bschrecklich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "katastrophal",
+      "pattern": "\\bkatastroph[a@]l\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "grauenhaft",
+      "pattern": "\\bgr[a@]u[e3]nh[a@]ft\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "Totalversagen",
+      "pattern": "\\bTotalvers[a@]g[e3]n\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "nicht wartbar",
+      "pattern": "nicht\\s+w[a@]rtb[a@]r",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "weg damit",
+      "pattern": "w[e3]g\\s+d[a@]mit",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "wer hat das geschrieben",
+      "pattern": "w[e3]r\\s+h[a@]t\\s+d[a@]s\\s+g[e3]schri[e3]b[e3]n",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "das funktioniert nicht",
+      "pattern": "d[a@]s\\s+funktionierts?\\s+nicht",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Schande",
+      "pattern": "\\bSch[a@]nd[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Copy-Paste",
+      "pattern": "Copy[-\\s]Paste",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "keine Fehlerbehandlung",
+      "pattern": "k[e3]in[e3]\\s+F[e3]hl[e3]rb[e3]h[a@]ndlung",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "kein Try-Catch",
+      "pattern": "k[e3]in\\s+Try[-\\s]Catch",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "keine Validierung",
+      "pattern": "k[e3]in[e3]\\s+V[a@]lidi[e3]rung",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "hardcodiert",
+      "pattern": "\\bh[a@]rdcodi[e3]rt\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "magische Zahl",
+      "pattern": "m[a@]gisch[e3]\\s+Z[a@]hl",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "Antimuster",
+      "pattern": "\\b[A@]ntimust[e3]r\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "Spaghetticode",
+      "pattern": "\\bSp[a@]gh[e3]tticod[e3]\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "technische Schulden",
+      "pattern": "t[e3]chnisch[e3]\\s+Schuld[e3]n",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nicht skalierbar",
+      "pattern": "nicht\\s+sk[a@]li[e3]rb[a@]r",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nicht testbar",
+      "pattern": "nicht\\s+t[e3]stb[a@]r",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "falsche Vorgehensweise",
+      "pattern": "f[a@]lsch[e3]\\s+Vorg[e3]h[e3]nsw[e3]is[e3]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "das sollte man nie so machen",
+      "pattern": "d[a@]s\\s+sollt[e3]\\s+m[a@]n\\s+ni[e3]\\s+so\\s+m[a@]ch[e3]n",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "Speicherleck",
+      "pattern": "\\bSp[e3]ich[e3]rl[e3]ck\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "keine Ahnung",
+      "pattern": "k[e3]in[e3]\\s+[A@]hnung",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "warum funktioniert das",
+      "pattern": "w[a@]rum\\s+funktionierts?\\s+d[a@]s",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "ich verstehe das nicht",
+      "pattern": "ich\\s+v[e3]rst[e3]h[e3]\\s+d[a@]s\\s+nicht",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "nicht anfassen",
+      "pattern": "nicht\\s+[a@]nf[a@]ss[e3]n",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "schwarze Magie",
+      "pattern": "schw[a@]rz[e3]\\s+M[a@]gi[e3]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "weiß kein Mensch",
+      "pattern": "w[e3]i[sß]\\s+k[e3]in\\s+M[e3]nsch",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "keiner weiß warum",
+      "pattern": "k[e3]in[e3]r\\s+w[e3]i[sß]\\s+w[a@]rum",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "völlig unklar",
+      "pattern": "v[oö]llig\\s+unkl[a@]r",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "niemand versteht das",
+      "pattern": "ni[e3]m[a@]nd\\s+v[e3]rst[e3]ht\\s+d[a@]s",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "Albtraum zu debuggen",
+      "pattern": "[A@]lbtr[a@]um\\s+zu\\s+d[e3]bugg[e3]n",
+      "severity": "severe",
+      "category": "confusion"
+    },
+    {
+      "word": "Trottel",
+      "pattern": "\\bTr[o0]tt[e3]l\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Schwachkopf",
+      "pattern": "\\bSchw[a@]chk[o0]pf\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Blödmann",
+      "pattern": "\\bBlödm[a@]nn\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Dummkopf",
+      "pattern": "\\bDummk[o0]pf\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Hohlkopf",
+      "pattern": "\\bH[o0]hlk[o0]pf\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Stümper",
+      "pattern": "\\bStümp[e3]r(ei)?\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Pfuscher",
+      "pattern": "\\bPfusch[e3]r\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Schmierer",
+      "pattern": "\\bSchmi[e3]r[e3]r\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Versager",
+      "pattern": "\\bV[e3]rs[a@]g[e3]r\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Niete",
+      "pattern": "\\bNi[e3]t[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Pfeife",
+      "pattern": "\\bPf[e3]if[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Flasche",
+      "pattern": "\\bFl[a@]sch[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Dilettant",
+      "pattern": "\\bDil[e3]tt[a@]nt\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "bekloppt",
+      "pattern": "\\bb[e3]kl[o0]ppt\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "beschränkt",
+      "pattern": "\\bb[e3]schränkt\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "hirnlos",
+      "pattern": "\\bhirnl[o0]s\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "gehirnfrei",
+      "pattern": "\\bg[e3]hirnfr[e3]i\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "Wahnsinn",
+      "pattern": "\\bW[a@]hnsinn\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Bockmist",
+      "pattern": "\\bB[o0]ckmist\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Pfusch",
+      "pattern": "\\bPfusch\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Blödsinn",
+      "pattern": "\\bBlödsinn\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Unsinn",
+      "pattern": "\\bUnsinn\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Schwachsinn",
+      "pattern": "\\bSchw[a@]chsinn\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Quatsch",
+      "pattern": "\\bQu[a@]tsch\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Mumpitz",
+      "pattern": "\\bMumpitz\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Kokolores",
+      "pattern": "\\bK[o0]k[o0]l[o0]r[e3]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Stuss",
+      "pattern": "\\bStuss\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Käse",
+      "pattern": "\\bKäs[e3]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Schrott",
+      "pattern": "\\bSchr[o0]tt\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Ramsch",
+      "pattern": "\\bR[a@]msch\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Müll",
+      "pattern": "\\bMüll\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Dreck",
+      "pattern": "\\bDr[e3]ck\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Schund",
+      "pattern": "\\bSchund\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Kram",
+      "pattern": "\\bKr[a@]m\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Krempel",
+      "pattern": "\\bKr[e3]mp[e3]l\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Murks",
+      "pattern": "\\bMurks\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "desaströs",
+      "pattern": "\\bd[e3]s[a@]strös\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "chaotisch",
+      "pattern": "\\bch[a@][o0]tisch\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "grässlich",
+      "pattern": "\\bgrässlich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "entsetzlich",
+      "pattern": "\\b[e3]nts[e3]tzlich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "abscheulich",
+      "pattern": "\\b[a@]bsch[e3]ulich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "widerlich",
+      "pattern": "\\bwid[e3]rlich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ekelhaft",
+      "pattern": "\\b[e3]k[e3]lh[a@]ft\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "peinlich",
+      "pattern": "\\bp[e3]inlich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "skandalös",
+      "pattern": "\\bsk[a@]nd[a@]lös\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "schändlich",
+      "pattern": "\\bschändlich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "beschämend",
+      "pattern": "\\bb[e3]schäm[e3]nd\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "lächerlich",
+      "pattern": "\\bläch[e3]rlich\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "absurd",
+      "pattern": "\\b[a@]bsurd\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "irrsinnig",
+      "pattern": "\\birrsinnig\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "wahnsinnig",
+      "pattern": "\\bw[a@]hnsinnig\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "verrückt",
+      "pattern": "\\bv[e3]rrückt\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "durchgeknallt",
+      "pattern": "\\bdurchg[e3]kn[a@]llt\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "gestört",
+      "pattern": "\\bg[e3]stört\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "kaputt",
+      "pattern": "\\bk[a@]putt\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "zerbrochen",
+      "pattern": "\\bz[e3]rbr[o0]ch[e3]n\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "hoffnungslos",
+      "pattern": "\\bh[o0]ffnungsl[o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "verloren",
+      "pattern": "\\bv[e3]rl[o0]r[e3]n\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Spaghetti-Code",
+      "pattern": "\\bSp[a@]gh[e3]tti[-\\s]C[o0]d[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Flickwerk",
+      "pattern": "\\bFlickw[e3]rk\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Flickschusterei",
+      "pattern": "\\bFlickschust[e3]r[e3]i\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Dschungel",
+      "pattern": "\\bDschung[e3]l\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Sumpf",
+      "pattern": "\\bSumpf\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Hölle",
+      "pattern": "\\bHöll[e3]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Alptraum",
+      "pattern": "\\b[A@]lptr[a@]um\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Chaos",
+      "pattern": "\\bCh[a@][o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "Durcheinander",
+      "pattern": "\\bDurch[e3]in[a@]nd[e3]r\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Wirrwarr",
+      "pattern": "\\bWirrw[a@]rr\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Verhau",
+      "pattern": "\\bV[e3]rh[a@]u\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Misthaufen",
+      "pattern": "\\bMisth[a@]uf[e3]n\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "unbrauchbar",
+      "pattern": "\\bunbr[a@]uchb[a@]r\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "wertlos",
+      "pattern": "\\bw[e3]rtl[o0]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "nutzlos",
+      "pattern": "\\bnutzl[o0]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "sinnlos",
+      "pattern": "\\bsinnl[o0]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "bescheuert",
+      "pattern": "\\bb[e3]sch[e3]u[e3]rt\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "Notlösung",
+      "pattern": "\\bN[o0]tlösung\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "Krücke",
+      "pattern": "\\bKrück[e3]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "Zeitbombe",
+      "pattern": "\\bZ[e3]itb[o0]mb[e3]\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "Falle",
+      "pattern": "\\bF[a@]ll[e3]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "Minenfeld",
+      "pattern": "\\bMin[e3]nf[e3]ld\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "Klebeband",
+      "pattern": "\\bKl[e3]b[e3]b[a@]nd\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "Pflaster",
+      "pattern": "\\bPfl[a@]st[e3]r\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "faul",
+      "pattern": "\\bf[a@]ul\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nachlässig",
+      "pattern": "\\bn[a@]chlässig\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "gedankenlos",
+      "pattern": "\\bg[e3]d[a@]nk[e3]nl[o0]s\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "unverantwortlich",
+      "pattern": "\\bunv[e3]r[a@]ntw[o0]rtlich\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "schlampig",
+      "pattern": "\\bschl[a@]mpig\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "liederlich",
+      "pattern": "\\bli[e3]d[e3]rlich\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    }
+  ]
+}

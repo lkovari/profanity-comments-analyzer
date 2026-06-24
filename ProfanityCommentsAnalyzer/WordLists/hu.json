@@ -1,0 +1,1320 @@
+{
+  "code": "hu",
+  "name": "Hungarian",
+  "entries": [
+    {
+      "word": "kurva",
+      "pattern": "\\bkurv[aá]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "bassza meg",
+      "pattern": "b[a@]ssz[a@]\\s+meg",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "bazdmeg",
+      "pattern": "b[a@]zdmeg",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "baszd meg",
+      "pattern": "b[a@]szd\\s+meg",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "fasz",
+      "pattern": "\\bf[a@]sz\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "faszt",
+      "pattern": "\\bf[a@]szt\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "faszom",
+      "pattern": "\\bf[a@]szom\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "pina",
+      "pattern": "\\bp[i1]n[a@]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "punci",
+      "pattern": "\\bpunc[i1]\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "segg",
+      "pattern": "\\bs[e3]gg\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "szar",
+      "pattern": "\\bsz[a@]r\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "szaros",
+      "pattern": "\\bsz[a@]ros\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "geci",
+      "pattern": "\\bg[e3]c[ií]?\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "kibaszott",
+      "pattern": "\\bkib[a@]szott\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "kibaszva",
+      "pattern": "\\bkib[a@]szva\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "rohadék",
+      "pattern": "\\broh[a@]d[eé]k\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "rohadt",
+      "pattern": "\\broh[a@]dt\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "barom",
+      "pattern": "\\bb[a@]rom\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "hülye",
+      "pattern": "\\bh[uü]ly[e3]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "idióta",
+      "pattern": "\\bidi[oó]t[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "pöcs",
+      "pattern": "\\bp[oö]cs\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "büdös",
+      "pattern": "\\bb[uü]d[oö]s\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "anyád",
+      "pattern": "\\b[a@]ny[aá]d\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "taknyos",
+      "pattern": "\\bt[a@]knyos\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "lófasz",
+      "pattern": "\\bl[oó]f[a@]sz\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "picsába",
+      "pattern": "\\bpics[aá]b[a@]\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "állat",
+      "pattern": "\\b[aá]ll[a@]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "pofátlan",
+      "pattern": "\\bpof[aá]tlan\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "szemét",
+      "pattern": "\\bszem[eé]t\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "disznó",
+      "pattern": "\\bdiszn[oó]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "lőném",
+      "pattern": "\\bl[oő]n[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "lelőném",
+      "pattern": "\\blel[oő]n[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "lelövöm",
+      "pattern": "\\blel[oö]v[oö]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "lőjék meg",
+      "pattern": "\\bl[oő]j[eé]k\\s+meg\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "agyonlőném",
+      "pattern": "\\b[a@]gyon(l[oő]n[eé]m|l[oö]v[oö]m)\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "dunába lőném",
+      "pattern": "dun[aá]b[a@]\\s+l[oő]n[eé]m",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "dunába dobom",
+      "pattern": "dun[aá]b[a@]\\s+d[o0]b[o0]m",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "dunába dobná",
+      "pattern": "dun[aá]b[a@]\\s+d[o0]bn[aá]",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "folyóba dob",
+      "pattern": "foly[oó]b[a@]\\s+d[o0]b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "megverném",
+      "pattern": "\\bmegvern[eé]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "megverem",
+      "pattern": "\\bmegver[e3]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "megvernék",
+      "pattern": "\\bmegvern[eé]k\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "agyonverném",
+      "pattern": "\\b[a@]gyonvern[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "agyonverlek",
+      "pattern": "\\b[a@]gyonverl[e3]k\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "beverem",
+      "pattern": "\\bbever[e3]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "beverném",
+      "pattern": "\\bbevern[eé]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "fejbe ver",
+      "pattern": "\\bf[e3]jb[e3]\\s+ver\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "fejbe vágom",
+      "pattern": "\\bf[e3]jb[e3]\\s+v[aá]g[o0]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "elveri",
+      "pattern": "\\belver[i1]\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "letöröm",
+      "pattern": "\\blet[oö]r[oö]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "letörném",
+      "pattern": "\\blet[oö]rn[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "kitöröm",
+      "pattern": "\\bkit[oö]r[oö]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "kitörném",
+      "pattern": "\\bkit[oö]rn[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "eltöröm",
+      "pattern": "\\belt[oö]r[oö]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "eltörném",
+      "pattern": "\\belt[oö]rn[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "töröm a kezét",
+      "pattern": "t[oö]r[oö]m\\s+a\\s+kez[eé]t",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "nyakát töröm",
+      "pattern": "ny[a@]k[aá]t\\s+t[oö]r[oö]m",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "kitekeri a nyakát",
+      "pattern": "kitek[e3]r[i1]\\s+a\\s+ny[a@]k[aá]t",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "kitekerem a nyakát",
+      "pattern": "kitek[e3]r[e3]m\\s+a\\s+ny[a@]k[aá]t",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "megölném",
+      "pattern": "\\bmeg[oö]ln[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "megölöm",
+      "pattern": "\\bmeg[oö]l[oö]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "megöllek",
+      "pattern": "\\bmeg[oö]ll[e3]k\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "agyonütném",
+      "pattern": "\\b[a@]gy[o0]n[uü]tn[eé]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "agyonütöm",
+      "pattern": "\\b[a@]gy[o0]n[uü]t[oö]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "agyoncsapom",
+      "pattern": "\\b[a@]gy[o0]ncs[a@]p[o0]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "megütném",
+      "pattern": "\\bmeg[uü]tn[eé]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "megütöm",
+      "pattern": "\\bmeg[uü]t[oö]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "megütlek",
+      "pattern": "\\bmeg[uü]tl[e3]k\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "pofon vágom",
+      "pattern": "\\bp[o0]f[o0]n\\s+v[aá]g[o0]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "pofon vágnám",
+      "pattern": "\\bp[o0]f[o0]n\\s+v[aá]gn[aá]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "pofozom",
+      "pattern": "\\bp[o0]f[o0]z[o0]m\\b",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "nyakon vágom",
+      "pattern": "ny[a@]k[o0]n\\s+v[aá]g[o0]m",
+      "severity": "moderate",
+      "category": "threat"
+    },
+    {
+      "word": "megfojtanám",
+      "pattern": "\\bmegf[o0]jtan[aá]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "megfojtom",
+      "pattern": "\\bmegf[o0]jt[o0]m\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "megfojtlek",
+      "pattern": "\\bmegf[o0]jtl[e3]k\\b",
+      "severity": "severe",
+      "category": "threat"
+    },
+    {
+      "word": "aki ezt írta",
+      "pattern": "[a@]ki\\s+ezt\\s+[ií]rt[a@]",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "aki ezt csinálta",
+      "pattern": "[a@]ki\\s+ezt\\s+csin[aá]lt[a@]",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "aki ezt fejlesztette",
+      "pattern": "[a@]ki\\s+ezt\\s+fejleszt[e3]tt[e3]",
+      "severity": "mild",
+      "category": "threat"
+    },
+    {
+      "word": "buzi",
+      "pattern": "\\bbuz[i1]\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "buzeráns",
+      "pattern": "\\bbuz[e3]r[aá]ns\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "retardált",
+      "pattern": "\\br[e3]t[a@]rd[aá]lt\\b",
+      "severity": "severe",
+      "category": "slur"
+    },
+    {
+      "word": "retkes kód",
+      "pattern": "r[e3]tk[e3]s\\s+k[oó]d",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ezt újra kell írni",
+      "pattern": "ezt\\s+[uú]jra\\s+kell\\s+[ií]rni",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ez nem működik",
+      "pattern": "ez\\s+nem\\s+m[uű]k[oö]dik",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "ki írta ezt",
+      "pattern": "ki\\s+[ií]rta\\s+ezt",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "gyatra",
+      "pattern": "\\bgy[a@]tr[a@]\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "katasztrófa",
+      "pattern": "\\bkatastr[oó]f[a@]\\b",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "borzalom",
+      "pattern": "\\bborz[a@]lom\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "borzalmas",
+      "pattern": "\\bborz[a@]lm[a@]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "förtelmes",
+      "pattern": "\\bf[oö]rt[e3]lm[e3]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ocsmány kód",
+      "pattern": "\\bocs[a@]m[aá]ny\\s+k[oó]d",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "nem ér semmit",
+      "pattern": "nem\\s+[eé]r\\s+semmit",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "teljesen elrontva",
+      "pattern": "telj[e3]s[e3]n\\s+[e3]lrontv[a@]",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "le kell cserélni",
+      "pattern": "le\\s+kell\\s+cser[eé]lni",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "kuka",
+      "pattern": "\\bkuk[a@]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "kukába való",
+      "pattern": "kuk[aá]b[a@]\\s+val[oó]",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "selejt",
+      "pattern": "\\bs[e3]l[e3]jt\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "lomtárba való",
+      "pattern": "lomt[aá]rb[a@]\\s+val[oó]",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "össze-vissza",
+      "pattern": "[oö]ssze[-\\s]viss?z[a@]",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "tele van hibával",
+      "pattern": "tele\\s+van\\s+hib[aá]val",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "ez nem kód",
+      "pattern": "ez\\s+nem\\s+k[oó]d",
+      "severity": "severe",
+      "category": "poorCode"
+    },
+    {
+      "word": "szégyen",
+      "pattern": "\\bsz[eé]gy[e3]n\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "copy-paste",
+      "pattern": "copy[-\\s]paste",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "copypaste",
+      "pattern": "\\bcopypaste\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "miért nincs try-catch",
+      "pattern": "mi[eé]rt\\s+nincs\\s+try[-\\s]catch",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "nincs hibakezelés",
+      "pattern": "nincs\\s+hibakezel[eé]s",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "nincs validáció",
+      "pattern": "nincs\\s+valid[aá]ci[oó]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "hardcode",
+      "pattern": "\\bhardcod(e|olv[a@]|[oó]lt)\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "magic number",
+      "pattern": "magic\\s+number",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "isten elleni bűn",
+      "pattern": "isten\\s+elleni\\s+b[uű]n",
+      "severity": "severe",
+      "category": "badPractice"
+    },
+    {
+      "word": "antipattern",
+      "pattern": "\\b[a@]ntip[a@]tt?[e3]rn\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "God object",
+      "pattern": "\\bgod[-\\s]obj[e3]ct\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "ez nem így kell",
+      "pattern": "ez\\s+nem\\s+[ií]gy\\s+kell",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "tech debt",
+      "pattern": "tech[-\\s]debt",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "technikai adósság",
+      "pattern": "technik[a@]i\\s+[a@]d[oó]ss[aá]g",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "ez rossz megközelítés",
+      "pattern": "ez\\s+rossz\\s+megk[oö]zel[ií]t[eé]s",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "nem skálázható",
+      "pattern": "nem\\s+sk[aá]l[aá]zh[a@]t[oó]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nem tesztelhető",
+      "pattern": "nem\\s+teszt[e3]lh[e3]t[oő]",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "karbantarthatatlan",
+      "pattern": "\\bk[a@]rb[a@]nt[a@]rth[a@]t[a@]tl[a@]n\\b",
+      "severity": "severe",
+      "category": "badPractice"
+    },
+    {
+      "word": "fogalmam sincs",
+      "pattern": "fogalm[a@]m\\s+sincs",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "miért működik",
+      "pattern": "mi[eé]rt\\s+m[uű]k[oö]dik",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "nem értem",
+      "pattern": "nem\\s+[eé]rt[e3]m",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "ki érti ezt",
+      "pattern": "ki\\s+[eé]rti\\s+ezt",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "rejtély",
+      "pattern": "\\br[e3]jt[eé]ly\\b",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "ez varázslat",
+      "pattern": "ez\\s+var[aá]zsl[a@]t",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "valaki megmagyarázza",
+      "pattern": "val[a@]ki\\s+megm[a@]gy[a@]r[aá]zz[a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "senki nem tudja",
+      "pattern": "s[e3]nki\\s+nem\\s+tudj[a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "ne nyúlj hozzá",
+      "pattern": "ne\\s+ny[uú]lj\\s+hozz[aá]",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "isten tudja",
+      "pattern": "isten\\s+tudj[a@]",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "teljesen érthetetlen",
+      "pattern": "telj[e3]s[e3]n\\s+[eé]rth[e3]t[e3]tl[e3]n",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "kaotikus",
+      "pattern": "\\bkaotiku[s$]\\b",
+      "severity": "moderate",
+      "category": "confusion"
+    },
+    {
+      "word": "ez hogyan működik",
+      "pattern": "ez\\s+hogyan\\s+m[uű]k[oö]dik",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "senki sem érti",
+      "pattern": "s[e3]nki\\s+s[e3]m\\s+[eé]rti",
+      "severity": "mild",
+      "category": "confusion"
+    },
+    {
+      "word": "seggfej",
+      "pattern": "\\bs[e3]ggf[e3]j\\b",
+      "severity": "moderate",
+      "category": "profanity"
+    },
+    {
+      "word": "marha",
+      "pattern": "\\bm[a@]rh[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "buta",
+      "pattern": "\\bbut[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "dilettáns",
+      "pattern": "\\bdil[e3]ttáns\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "béna",
+      "pattern": "\\bbén[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "cretin",
+      "pattern": "\\bcr[e3]tin\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "faszfej",
+      "pattern": "\\bf[a@]szf[e3]j\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "debil",
+      "pattern": "\\bd[e3]bil\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "agyatlan",
+      "pattern": "\\b[a@]gy[a@]tl[a@]n\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "ostoba",
+      "pattern": "\\b[o0]st[o0]b[a@]\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "szerencsétlen",
+      "pattern": "\\bsz[e3]r[e3]ncsétl[e3]n\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "nyomorult",
+      "pattern": "\\bny[o0]m[o0]rult\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "köcsög",
+      "pattern": "\\bköcsög\\b",
+      "severity": "severe",
+      "category": "profanity"
+    },
+    {
+      "word": "takony",
+      "pattern": "\\bt[a@]k[o0]ny\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "trotli",
+      "pattern": "\\btr[o0]tli\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "fajankó",
+      "pattern": "\\bf[a@]j[a@]nkó\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "málé",
+      "pattern": "\\bmálé\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "arcátlan",
+      "pattern": "\\b[a@]rcátl[a@]n\\b",
+      "severity": "mild",
+      "category": "profanity"
+    },
+    {
+      "word": "gagyi",
+      "pattern": "\\bg[a@]gyi\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "tökéletlen",
+      "pattern": "\\btökél[e3]tl[e3]n\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "primitív",
+      "pattern": "\\bprimitív\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "suta",
+      "pattern": "\\bsut[a@]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "kontár",
+      "pattern": "\\bk[o0]ntár\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "mocskos",
+      "pattern": "\\bm[o0]csk[o0]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "butaság",
+      "pattern": "\\bbut[a@]ság\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "ostobaság",
+      "pattern": "\\b[o0]st[o0]b[a@]ság\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "marhaság",
+      "pattern": "\\bm[a@]rh[a@]ság\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "badarság",
+      "pattern": "\\bb[a@]d[a@]rság\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "maszlag",
+      "pattern": "\\bm[a@]szl[a@]g\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "rémálom",
+      "pattern": "\\brémál[o0]m\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "iszonyat",
+      "pattern": "\\bisz[o0]ny[a@]t\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "rettenetes",
+      "pattern": "\\br[e3]tt[e3]n[e3]t[e3]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "undorító",
+      "pattern": "\\bund[o0]rító\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "felháborító",
+      "pattern": "\\bf[e3]lháb[o0]rító\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "értelmetlen",
+      "pattern": "\\bért[e3]lm[e3]tl[e3]n\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "használhatatlan",
+      "pattern": "\\bh[a@]sználh[a@]t[a@]tl[a@]n\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "elmebaj",
+      "pattern": "\\b[e3]lm[e3]b[a@]j\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "őrület",
+      "pattern": "\\bőrül[e3]t\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "bolondság",
+      "pattern": "\\bb[o0]l[o0]ndság\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "abszurdum",
+      "pattern": "\\b[a@]bszurdum\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "nevetséges",
+      "pattern": "\\bn[e3]v[e3]tség[e3]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "szánalmas",
+      "pattern": "\\bszán[a@]lm[a@]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "gyalázatos",
+      "pattern": "\\bgy[a@]láz[a@]t[o0]s\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "bóvli",
+      "pattern": "\\bbóvli\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "kacat",
+      "pattern": "\\bk[a@]c[a@]t\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "hulladék",
+      "pattern": "\\bhull[a@]dék\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "szemetes",
+      "pattern": "\\bsz[e3]m[e3]t[e3]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "gáz",
+      "pattern": "\\bgáz\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "katyvasz",
+      "pattern": "\\bk[a@]tyv[a@]sz\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "zagyvaság",
+      "pattern": "\\bz[a@]gyv[a@]ság\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "galimatiás",
+      "pattern": "\\bg[a@]lim[a@]tiás\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "káosz",
+      "pattern": "\\bká[o0]sz\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "felfordulás",
+      "pattern": "\\bf[e3]lf[o0]rdulás\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "zűrzavar",
+      "pattern": "\\bzűrz[a@]v[a@]r\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "csőd",
+      "pattern": "\\bcsőd\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "kudarc",
+      "pattern": "\\bkud[a@]rc\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "törött",
+      "pattern": "\\btörött\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "elromlott",
+      "pattern": "\\b[e3]lr[o0]ml[o0]tt\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "bugos",
+      "pattern": "\\bbug[o0]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "lyukas",
+      "pattern": "\\blyuk[a@]s\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "rémség",
+      "pattern": "\\brémség\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "lidércnyomás",
+      "pattern": "\\blidércny[o0]más\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "pokol",
+      "pattern": "\\bp[o0]k[o0]l\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "dzsungel",
+      "pattern": "\\bdzsung[e3]l\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "mocsár",
+      "pattern": "\\bm[o0]csár\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "labirintus",
+      "pattern": "\\bl[a@]birintus\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "spagetti",
+      "pattern": "\\bsp[a@]g[e3]tti\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "cérnametélt",
+      "pattern": "\\bcérn[a@]m[e3]télt\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "ragacs",
+      "pattern": "\\br[a@]g[a@]cs\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "gubanc",
+      "pattern": "\\bgub[a@]nc\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "kuszaság",
+      "pattern": "\\bkusz[a@]ság\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "zúzmara",
+      "pattern": "\\bzúzm[a@]r[a@]\\b",
+      "severity": "mild",
+      "category": "poorCode"
+    },
+    {
+      "word": "botrány",
+      "pattern": "\\bb[o0]trány\\b",
+      "severity": "moderate",
+      "category": "poorCode"
+    },
+    {
+      "word": "lusta",
+      "pattern": "\\blust[a@]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "gondatlan",
+      "pattern": "\\bg[o0]nd[a@]tl[a@]n\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "felesleges",
+      "pattern": "\\bf[e3]l[e3]sl[e3]g[e3]s\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "életveszélyes",
+      "pattern": "\\bél[e3]tv[e3]szély[e3]s\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "tákolt",
+      "pattern": "\\bták[o0]lt\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "foltozott",
+      "pattern": "\\bf[o0]lt[o0]z[o0]tt\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "ragasztószalag",
+      "pattern": "\\br[a@]g[a@]sztósz[a@]l[a@]g\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "időzített bomba",
+      "pattern": "időzít[e3]tt\\s+b[o0]mb[a@]",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "akna",
+      "pattern": "\\b[a@]kn[a@]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "csapda",
+      "pattern": "\\bcs[a@]pd[a@]\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "felelőtlen",
+      "pattern": "\\bf[e3]l[e3]lőtl[e3]n\\b",
+      "severity": "moderate",
+      "category": "badPractice"
+    },
+    {
+      "word": "hanyag",
+      "pattern": "\\bh[a@]ny[a@]g\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    },
+    {
+      "word": "nemtörődöm",
+      "pattern": "\\bn[e3]mtörődöm\\b",
+      "severity": "mild",
+      "category": "badPractice"
+    }
+  ]
+}
