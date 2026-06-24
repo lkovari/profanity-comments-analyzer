@@ -75,6 +75,12 @@ profanity_comments_analyzer.allow_list = hack
 
 To fail the build on violations, treat warnings as errors and do not exclude PCA001.
 
+## When using NuGet ProfanityCommentsAnalyzer
+
+After installing the package, `dotnet build` reports **PCA001** warnings for profane or offensive words found in comments. The analyzer checks built-in lists for **en**, **hu**, **de**, **ro**, and **it** — each match shows the word, language code, and severity:
+
+![Build output showing PCA001 profanity-in-comments warnings across en, hu, de, ro, and it test files](docs/nuget-build-output.png)
+
 ## PCA001
 
 **PCA001** is the diagnostic rule ID for this package’s only rule. **PCA** stands for **P**rofanity **C**omments **A**nalyzer; **001** is the first rule in the package.
