@@ -9,12 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- GitHub Actions workflow [`.github/workflows/build.yml`](.github/workflows/build.yml) — CI on push/PR; NuGet publish on `v*` tags via `NUGET_API_KEY` secret.
+- GitHub Actions workflow [`.github/workflows/build.yml`](.github/workflows/build.yml) — CI on push/PR; NuGet publish on `v*` tags via [trusted publishing](https://learn.microsoft.com/nuget/nuget-org/trusted-publishing) (OIDC, `NuGet/login@v1`, environment `production`).
 
 ### Changed
 
 - README: expanded documentation for **`extra-patterns.json`** (cross-language extras vs per-language files), **`AdditionalFiles`** (MSBuild wiring, merge/replace behavior, when required), build-time data flow, and **analyzer source file** reference.
 - README: maintainer workflow documents editing JSON directly; embedded lists are loaded by `WordListRegistry` via `System.Text.Json`.
+- CI publish job uses NuGet trusted publishing instead of a `NUGET_API_KEY` repository secret.
 
 ### Removed
 

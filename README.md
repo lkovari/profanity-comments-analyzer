@@ -419,9 +419,16 @@ git tag v2.0.2
 git push origin v2.0.2
 ```
 
-The [`build.yml`](.github/workflows/build.yml) workflow publishes to NuGet.org when a `v*` tag is pushed. Add a [NuGet API key](https://www.nuget.org/account/apikeys) as the repository secret **`NUGET_API_KEY`**.
+The [`build.yml`](.github/workflows/build.yml) workflow publishes to NuGet.org when a `v*` tag is pushed, using [NuGet trusted publishing](https://learn.microsoft.com/nuget/nuget-org/trusted-publishing) (OIDC — no long-lived API key in GitHub secrets).
 
-**Manual:**
+**One-time setup:**
+
+1. On [nuget.org → Trusted Publishing](https://www.nuget.org/manage/trustedpublishers), add a policy for this repo (`build.yml`, environment `production`, owner `lkovari`).
+2. On GitHub: **Settings → Environments → New environment** → name it **`production`**.
+
+The workflow requests a short-lived key via `NuGet/login@v1` at publish time.
+
+**Manual push** (local): create a scoped [API key](https://www.nuget.org/account/apikeys) on nuget.org and use:
 
 ```bash
 dotnet nuget push ./artifacts/ProfanityCommentsAnalyzer.2.0.2.nupkg \
