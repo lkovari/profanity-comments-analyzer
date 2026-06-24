@@ -23,7 +23,7 @@ Not analyzed: string literals, identifiers, `.cshtml`, `.razor`, Visual Basic.
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="ProfanityCommentsAnalyzer" Version="2.0.2">
+  <PackageReference Include="ProfanityCommentsAnalyzer" Version="2.0.3">
     <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
   </PackageReference>
@@ -33,7 +33,7 @@ Not analyzed: string literals, identifiers, `.cshtml`, `.razor`, Visual Basic.
 Or:
 
 ```bash
-dotnet add package ProfanityCommentsAnalyzer --version 2.0.2
+dotnet add package ProfanityCommentsAnalyzer --version 2.0.3
 ```
 
 ### Run
@@ -453,7 +453,7 @@ Workflow: [`.github/workflows/build.yml`](.github/workflows/build.yml)
 | Trigger | Action |
 |---------|--------|
 | Pull request or push to `main` | Build and test (with coverage) |
-| Push tag `v*` (e.g. `v2.0.2`) | Pack and publish to [nuget.org](https://www.nuget.org) |
+| Push tag `v*` (e.g. `v2.0.3`) | Pack and publish to [nuget.org](https://www.nuget.org) |
 
 ### Publish to nuget.org
 
