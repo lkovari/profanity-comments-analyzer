@@ -8,7 +8,7 @@
     <DevelopmentDependency>true</DevelopmentDependency>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <PackageId>ProfanityCommentsAnalyzer</PackageId>
-    <Version>2.0.5</Version>
+    <Version>2.0.6</Version>
     <Title>Profanity Comments Analyzer</Title>
     <Description>Roslyn analyzer – detects profanity, threats, slurs, insults, and code-critique remarks in C# comments (EN, HU, DE, RO, IT, extendable)</Description>
     <PackageTags>roslyn;analyzer;profanity;comments;csharp;code-quality</PackageTags>

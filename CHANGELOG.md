@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.6] - 2026-06-26
+
+### Changed
+
+- README: restructured documentation with **Tech stack** (Roslyn analyzer, NuGet package, related technologies) and official Microsoft / NuGet references throughout.
+- README: **Platform compatibility** — notes that CI tests **.NET 9** only; **.NET Framework 4.7** is not tested in this repo but likely works with Visual Studio 2022 17.3+ or a recent .NET SDK.
+
 ## [2.0.5] - 2026-06-24
 
 ### Fixed
@@ -96,6 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Supplemental words via `AdditionalFiles` JSON (`profanity-words*.json`).
 - NuGet package with analyzer assembly and language source templates.
 
+[2.0.6]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.6
 [2.0.5]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.5
 [2.0.4]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.4
 [2.0.3]: https://github.com/lkovari/profanity-comments-analyzer/releases/tag/v2.0.3
